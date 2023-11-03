@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein</title>
+
+
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+    <!-- aos library  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- bootstrap cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+   
+
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css folder/product.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a  class="logo"><i class="fas fa-book"></i> Albert Einstein </a>
+
+        <nav class="navbar">
+            <a href="../index.html" class="hover-underline">home</a>
+            <a href="./New folder/Home.html" class="hover-underline">Biography</a>
+            <a href="../award.html" class="hover-underline">Award & Honours</a>
+            <a href="#Research" class="hover-underline">Research</a>
+            <a href="./products/product.html" class="hover-underline">Gallery of Albert</a>
+            <a href="#contact" class="hover-underline">Feedback</a>
+        </nav>
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn">
+                <span class="text text-1">login now</span>
+                <span class="text text-2" aria-hidden="true">login now</span>
+            </a>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- <header id="header">
+        <div class="header">
+            <div class="container-fuid">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/images/favicon2.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered "></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Faqs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="form.html">Form</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Others
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item " href="cycling.html">Cycling</a></li>
+                                    <li><a class="dropdown-item" href="swimming.html">Swimming</a></li>
+                                    <li><a class="dropdown-item" href="sport.html">Sports & fitness</a></li>
+                                    <li><a class="dropdown-item" href="group.html">Group exercise</a></li>
+                                    <li><a class="dropdown-item" href="member.html">Member ship</a></li>
+                                    <li><a class="dropdown-item " href="salon.html">Salon & Spa</a></li>
+                                    <li><a class="dropdown-item " href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item active" href="product.html">Gym Equipment</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                        <!-- <a href="login.html"> <button class="btn btn-outline-success " type="submit">Register</button></a> -->
+                        <!-- <a><button class="btn btn-outline-danger me-4" id="registerBtn" type="submit"
+                                onclick="localStorage.setItem('user','false'); location.href='./login.html';">SignOut</button></a>
+                    </div>
+
+
+                </nav>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- <div class="container"> -->
+    <div class="container  cards-container" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="row">
+            <h1 class="text-center card-heading">Albert & Family</h1>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein-child.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Yoga-Mat</h5>
+                        <p class="card-text">Price: $33</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+
+
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/early life.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $40</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/albert and sister.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $30</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/Einstein_Family.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $20</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein childhood.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $40</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/college life.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $10</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/homeofalbert.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $24</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/father and mother.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $50</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/albert einstein college life.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $20</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/article1.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $30</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein note book.jpeg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $80</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein notes on relativity.webp " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $200</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/dead article.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Gym Gloves</h5>
+                        <p class="card-text">Price: $20</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein zurich notebook.jpeg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $10</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/einstein thoughts on a good life.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $20</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/travel diraries.jpg " alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $10</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/albert first wife.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title">Resistance Tubes</h5>
+                        <!-- <p class="card-text">Price: $10</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/images/albert with his son and grandson.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $10</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="../products/assets/images/albert 2nd wife.jpg" alt="Product 1" class="product-image ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $16</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="../products/assets/images/albert.jpg " alt="Product 1" class="product-image  ">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <p class="card-text">Price: $250</p>
+                        <div class="star-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer class="footer">
+        <div class="container-col">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Site Map <img src="" alt=""></h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">Faqs</a></li>
+                        <li><a href="form.html">Enquiry form</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="swimming.html">Swimming</a></li>
+                        <li><a href="cycling.html">Cycling</a></li>
+                        <li><a href="salon.html">Salon & Spa</a></li>
+                        <li><a href="product.html">Gym Equipment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Fitness Program</h4>
+                    <ul>
+                        <li><a href="sport.html"> Sports Fitness</a></li>
+                        <li><a href="group.html">Group Exercise</a></li>
+                        <li><a href="member.html">Membership</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/PrimeFitnessOfficial/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/primefitnesspk/?hl=en" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/prime-fitness-usa" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!-- Add the modal-lg class here -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalProductImage" src="" alt="Product" class="modal-product-image mx-auto">
+                    <h1>Description</h1>
+                    <div id="modalProductDescription" class="modal-product-description">
+                        <p>Premium quality materials for durability and longevity</p>
+                        <p>Non-slip surface for enhanced stability and grip</p>
+                        <p>Comfortable cushioning for joint support</p>
+                        <p>Lightweight and portable design</p>
+                        <p>Suitable for yoga, stretching, Pilates, and other exercises</p>
+                        <p>Easy to clean and maintain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer section stars -->
+
+    <footer>
+        <div class="row">
+          
+          <div class="column">
+            <h4>About Us</h4>
+            <p>Albert Einstein Quotes. Two things are infinite: the universe and human stupidity; and I'm not sure about the universe. There are only two ways to live your life. One is as though nothing is a miracle.
+            </p>
+          </div>
+    
+          <div class="column">
+            <h4>Quick Links</h4>
+            <ul>
+                <li>
+                  <a href="../index.html">
+                    <i class="fa fa-angle-right"></i> 
+                    Home</a>
+                </li>
+                <li>
+                  <a href="../bio/bio.html">
+                    <i class="fa fa-angle-right"></i> 
+                   Biography</a>
+                </li>
+                <li>
+                  <a href="../award.html">
+                    <i class="fa fa-angle-right"></i> 
+                   Award &Honour</a>
+                 </li>
+                 <li>
+                  <a href="../reference.html">
+                    <i class="fa fa-angle-right"></i> 
+                   Reference </a>
+                 </li>
+                 <li>
+                  <a href="../Research/Research.html">
+                    <i class="fa fa-angle-right"></i> 
+                   Research & Work</a>
+                 </li>
+              </ul>
+          </div>
+    
+          <div class="column">
+            <h4>Connect with Us</h4>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+               </li>
+               <li>
+                 <a href="#">
+                   <i class="fa-brands fa-github"></i>
+                 </a>
+               </li>
+            </ul>
+          </div>
+    
+        </div>
+        <p class="copyright">© 2023 All Rights Reserved</p>
+      </footer>
+
+    <!-- footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="./js/product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>
